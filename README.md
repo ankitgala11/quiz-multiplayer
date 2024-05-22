@@ -25,17 +25,18 @@ The **quiz-multiplayer** project is a web-based multiplayer quiz game where two 
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/quiz-multiplayer.git
+   git clone https://github.com/ankitgala11/quiz-multiplayer.git
    
 2. Install dependencies:
 
    ```bash
    cd backend 
-   git install
+   npm install
+   cd ..
    cd frontend
-   git install
+   npm install
 
-3. Start server:
+3. Start backend & frontend server:
    ```bash
    npm run dev
 
