@@ -26,3 +26,28 @@ The **quiz-multiplayer** project is a web-based multiplayer quiz game where two 
 
    ```bash
    git clone https://github.com/your-username/quiz-multiplayer.git
+   
+2.Install dependencies:
+
+   ```bash
+      npm i
+
+3. Start the server:
+
+   ```bash
+   
+
+4. Open the browser and navigate to http://localhost:3000 to play the game.
+
+##Usage
+-Register or log in to your account.
+-Choose a game mode (1v1).
+-Wait for an opponent to join the game.
+-Answer quiz questions as fast as possible to earn points.
+-The player with the highest score at the end of the game wins.
+-View the leaderboard to see your rank among other players.
+
+##Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvement, please open an issue or create a pull request.
+
+   
