@@ -1,11 +1,11 @@
 const express = require("express");
 const socketIO = require("socket.io");
-const http = require("http");
+const https = require("https");
 const cors = require("cors");
 const questions = require("./questions");
 
 const app = express();
-const server = http.createServer(app);
+const server = https.createServer(app);
 app.use(cors());
 
 const io = socketIO(server, {
