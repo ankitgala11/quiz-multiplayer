@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = socketIO(server, {
 	cors: {
-		origin: ["https://quiz-multiplayer-frontend.vercel.app", "http://localhost:3000"],
+		origin: "http://localhost:3000",
 		methods: ["GET", "POST"],
 		credentials: true,
 	},
