@@ -1,6 +1,8 @@
 # quiz-multiplayer
 
-A 1v1 quiz competition game using Websockets, Node.js, Express, and React.
+A 1v1 quiz competition game using Websockets(socket.io), Node.js, Express, and React.
+
+[![Watch the video](https://img.youtube.com/vi/7f7tU3cTyRQ/maxresdefault.jpg)](https://youtu.be/7f7tU3cTyRQ)
 
 ## Description
 
