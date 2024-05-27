@@ -2,6 +2,7 @@
 
 A 1v1 quiz competition game using Websockets(socket.io), Node.js, Express, and React.
 
+#Click below to watch the video
 [![Watch the video](https://img.youtube.com/vi/7f7tU3cTyRQ/maxresdefault.jpg)](https://youtu.be/7f7tU3cTyRQ)
 
 ## Description
