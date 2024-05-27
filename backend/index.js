@@ -16,6 +16,10 @@ const io = socketIO(server, {
 	},
 });
 
+app.get("/", (req, res, next) => {
+    res.status(200).json("Working");
+});
+
 const rooms = {};
 
 io.on("connection", (socket) => {
