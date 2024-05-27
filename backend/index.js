@@ -16,9 +16,6 @@ const io = socketIO(server, {
 	},
 });
 
-app.get('/', (req, res) => {
-    res.send('Its Working');
-});
 
 const rooms = {};
 
