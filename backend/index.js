@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = socketIO(server, {
 	cors: {
-		origin: "http://localhost:3000",
+		origins: '*:*',
 		methods: ["GET", "POST"],
 		credentials: true,
 	},
