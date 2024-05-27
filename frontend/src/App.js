@@ -3,7 +3,7 @@ import Quiz from "./components/Quiz";
 import Lobby from "./components/Lobby";
 import socketIOClient from "socket.io-client";
 
-const socket = socketIOClient("https://quiz-multiplayer-backend-peach.vercel.app:5000/", {
+const socket = socketIOClient("https://quiz-multiplayer-backend-peach.vercel.app:5000", {
   withCredentials: true
 });
 
