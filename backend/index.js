@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = socketIO(server, {
 	cors: {
-		origins: '*:*',
+		origins: '*',
 		methods: ["GET", "POST"],
 		credentials: true,
 	},
