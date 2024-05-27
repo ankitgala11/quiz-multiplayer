@@ -16,8 +16,8 @@ const io = socketIO(server, {
 	},
 });
 
-app.get("/", (req, res, next) => {
-    res.status(200).json("Working");
+app.get('/', (req, res) => {
+    res.send('Its Working');
 });
 
 const rooms = {};
