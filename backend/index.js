@@ -10,7 +10,7 @@ app.use(cors());
 
 const io = socketIO(server, {
 	cors: {
-		origin: "https://quiz-multiplayer-frontend-bfbw3yd6u-ankits-projects-2e1e4acf.vercel.app",
+		origin: "https://quiz-multiplayer-frontend.vercel.app",
 		methods: ["GET", "POST"],
 		credentials: true,
 	},
