@@ -4,7 +4,7 @@ A 1v1 quiz competition game using Websockets(socket.io), Node.js, Express, and R
 
 ## Click below to watch the youtube video
 
-[![Watch the video](https://img.youtube.com/vi/7f7tU3cTyRQ/maxresdefault.jpg)](https://youtu.be/7f7tU3cTyRQ)
+[![YouTube Video](https://img.youtube.com/vi/7f7tU3cTyRQ/0.jpg)](https://www.youtube.com/watch?v=7f7tU3cTyRQ)
 
 ## Description
 
